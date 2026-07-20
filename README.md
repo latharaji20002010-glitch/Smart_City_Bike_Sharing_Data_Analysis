@@ -47,7 +47,6 @@ o	Percentage of Bonus Stations =
         ),
         COUNTROWS(Dim_Station),
         0
-        Last_Reported_Timestamp = MAX(Fact_Bike_Stand[Last Update])
         )
 o	Percentage of Operational Stations = 
         DIVIDE(
